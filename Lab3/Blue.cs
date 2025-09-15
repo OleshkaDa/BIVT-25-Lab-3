@@ -7,7 +7,24 @@
             double milk = 0;
 
             // code here
-
+            List<double> ves = new List<double>();
+            for (int i = 0; i <= n; i++)
+            {
+                double number = Convert.ToDouble(Console.ReadLine());
+                ves.Add(number);
+            }
+            foreach (double num in ves)
+            {
+                if (num < norma)
+                {
+                    milk += glass + glass;
+                }
+                else
+                {
+                    milk += glass;
+                }
+        
+            }
             // end
 
             return milk;
@@ -52,4 +69,5 @@
             return (power, agility, intellect);
         }
     }
+
 }
