@@ -20,7 +20,7 @@ namespace Lab3
                 {
                     milk += glass;
                 }*/
-//А ПОЧЕМУ?????????????????
+
             }
             milk = milk / 1000;
 
@@ -152,3 +152,4 @@ namespace Lab3
         }
     }
 }
+
