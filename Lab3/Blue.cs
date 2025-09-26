@@ -1,4 +1,3 @@
-
 namespace Lab3
 {
     public class Blue
@@ -124,7 +123,7 @@ namespace Lab3
                     intellect -= 5;
                     break ;
                 case 3:
-                    power += 5;
+                    power += 10;
                     intellect -= 5;
                     break ;
                 case 4:
